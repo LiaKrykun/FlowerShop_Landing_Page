@@ -1,12 +1,8 @@
-/* ****************************************
-Common Styles
-*******************************************/
-
 *{
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .col-1 {width: 8.33%;}
@@ -94,10 +90,6 @@ section{
     visibility: hidden;
 }
 
-/* ****************************************
-Header Styles
-*******************************************/
-
 header{
     background-image: linear-gradient (rgba(255, 255, 255, 0.37), rgba(213,169,218, 0.1)), url(../images/ro.jpg); 
     background-image: url(../images/main.jpg);
@@ -134,8 +126,6 @@ h2:after{
     margin: 0 auto;
     margin-top: 30px;
 }
-
-
 
 #header-title{
     background: rgba(255, 255, 255, 0.6);
@@ -185,17 +175,6 @@ h2:after{
     }
 }
 
-/* #sticky-nav
-{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #dde99c;
-    z-index: 999;
-    box-shadow: 0 2px 2px rgba(97, 96, 96, 0.596);
-} */
-
 #logotext {
     float: left;
 }
@@ -229,14 +208,12 @@ h2:after{
 #main-nav li a:visited {
     text-decoration: none;
     color: black;
-    /* padding: 5px; */
     opacity: 0.7;
 }
 
 #main-nav li a:hover,
 #main-nav li a:active{
     opacity: 1;
-    /* padding: 5px; */
 }
 
 #logotext a {
@@ -247,10 +224,6 @@ h2:after{
     padding-left: 30px;
     font-weight: 700;
 }
-
-/* ****************************************
-Button Styles
-*******************************************/
 
 nav {
     background: white;
@@ -290,8 +263,6 @@ nav {
     }
 }
 
-
-
 input[type=submit]{
     background-color: rgba(92, 185, 55, 0.904);
     border: none;
@@ -312,15 +283,12 @@ input[type=submit] {
     transition: background-color 0.5s, border 0.5s;
 }
 
-/* ASK ABOUT DOUBLE LINK VISITED */
-
 .button-order {
     margin-left: 7vw;
     background-color: rgba(82, 204, 33, 0.6);
     border: 1px solid rgba(82, 204, 33, 0.6);
     margin-bottom: 20px;
 }
-
 
 .button-more {
     border: 1px solid;
@@ -348,9 +316,6 @@ input[type=submit]:active{
     border: 1px solid #358315;
 }
 
-/* ****************************************
-Food-images
-*******************************************/
 .images-container{
     list-style: none;
     width: 100%;
@@ -392,12 +357,6 @@ Food-images
 #flo-images-section{
     margin-left: 0;
 }
-
-
-
-/*****************************************
- How to order ***************************
-*/
 
 #phone-image{
     width: 100%;
@@ -465,7 +424,6 @@ Food-images
 }
 
 .col-3 img{
-    /* width: 100%; */
     width: 370px;
     height: 250px;
 }
@@ -480,8 +438,6 @@ Food-images
          min-height: 200px;
     }
 }
-
-
 
 #adress{
     background: rgba(207, 195, 195, 0.3);
@@ -517,23 +473,18 @@ h3{
     padding-right: 3em;
 }
 
-/*****************************************
-Feedback ***************************
-*/
-
 .feedback cite{
     display: inline-block;
-    font-size: 120%;
+    font-size: 1em;
 }
 
 .iconfeed{
     color:rgb(59, 138, 28);
-    font-size: 120%;
+    font-size: 1em;
 }
 
 #feedback{
     margin: 0;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.753)), to(rgba(183, 240, 109, 0.384))), url('../images/feedback.jpg');
     background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0.753), rgba(183, 240, 109, 0.384)), url('../images/feedback.jpg');
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.753), rgba(183, 240, 109, 0.384)), url('../images/feedback.jpg');
     background-size: cover;
@@ -542,7 +493,8 @@ Feedback ***************************
 
 .feedback{
     background-color:rgba(255, 255, 255, 0.76);
-    height: 200px;
+    height: 10em;
+    width: 16em;
     margin: 10px;
     border-radius: 40px;
     margin-left: 100px;
@@ -562,12 +514,6 @@ blockquote{
     line-height: 150%;
 }
 
-/*****************************************
-Queshion ***************************
-*/
-
-#contact-form-section
-
 #contact-form{
     width: 50%;
     margin: 0 auto;
@@ -583,10 +529,6 @@ input[type=text], input[type=email], select, textarea{
 textarea{
     height: 120px;
 }
-
-/* ****************************************
-Footer Styles
-*******************************************/
 
 footer{
     text-align: center;
@@ -621,7 +563,6 @@ footer{
 #footer-social li a:visited {
     text-decoration: none;
     color: black;
-    /* padding: 5px; */
     opacity: 0.7;
 }
 
@@ -630,14 +571,12 @@ footer{
 #footer-social li a:hover,
 #footer-social li a:active{
     opacity: 1;
-    /* padding: 5px; */
 }
 
 #footer-social li a:link,
 #footer-social li a:visited {
     text-decoration: none;
     color: black;
-    /* padding: 5px; */
     opacity: 0.7;
     font-size: 150%;
     color: rgb(66, 158, 23);
@@ -646,11 +585,8 @@ footer{
 #footer-social li a:hover,
 #footer-social li a:active{
     opacity: 1;
-    /* padding: 5px; */
     color: rgb(40, 92, 16);
 }
-
-/* <!-- //Animate --> */
 
 .anim1,
 .anim2,
